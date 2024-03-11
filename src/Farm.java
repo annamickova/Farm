@@ -42,11 +42,7 @@ public class Farm {
         if (isPlanted(flower)) flower.chanceOfGrowth += 10;
 
     }
-    public void animalCount(){
-        for (int i = 0; i < animals.size()-1; i++) {
 
-        }
-    }
     public void buyAnimal(Animal animal){
         animals.add(animal);
     }
