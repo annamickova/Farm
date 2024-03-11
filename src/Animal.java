@@ -5,13 +5,13 @@ public abstract class Animal {
     protected Size size;
     protected String specialCare;
 
+
     @Override
     public String toString() {
-        return "Animal{" +
-                "type='" + type + '\'' +
-                ", name='" + name + '\'' +
-                ", size=" + size +
-                ", specialCare='" + specialCare + '\'' +
-                '}';
+        return "\nAnimal" +
+                "\ntype: " + type +
+                "\nname: " + name +
+                "\nsize: " + size +
+                "\nspecialCare: " + specialCare;
     }
 }
